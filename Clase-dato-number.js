@@ -20,3 +20,45 @@ const aleatorio=Math.random()
 console.log(raizCuadrada)
 console.log(valorAbsoluto)
 console.log(aleatorio)
+
+//Clase de tipo de datos boolean
+
+const isActive=true
+const hasPermisson=false
+const result=5>3
+console.log(result)
+const name='Platzi'
+console.log(!!name)
+const value=0
+const otherValue=-24
+const explicitBoolean=Boolean(otherValue)
+console.log(explicitBoolean)
+
+//Tipos de datos primitivos: null, undefined, symbol y bigint
+
+const snoopy=null
+console.log(snoopy)
+console.log(typeof snoopy)
+
+//undefined
+let nombre
+console.log (nombre)
+
+//Symbol 
+const uniqueId=Symbol('id')
+const symbol1=Symbol(1)
+const symbol2=Symbol(1)
+console.log(symbol1===symbol2)
+
+const ID=Symbol('id')
+let user={}
+user[ID]='1234'
+console.log(user)
+
+//BigInt
+const bigNumber=109823746783982764567847654782374n
+console.log(bigNumber)
+const numberOfParticlesInTheUniverse=10000000000000000000n
+console.log(numberOfParticlesInTheUniverse)
+
+
